@@ -1,135 +1,449 @@
 [
-  { "id": "stage-01", "category": "stage", "image": "stage/Stage00001.jpg",
+  {
+    "id": "stage-01",
+    "category": "stage",
+    "image": "stage/Stage00001.jpg",
     "variants": [
-      { "ig": "今日のステージ、思ったより高く跳べました\n着地、ちょっと危なかったです", "x": "今日のステージ、飛びすぎました", "tags": "#VERT5X #JONGJIN #kpop #live #ジョンジン" },
-      { "ig": "客席の熱量、毎回想像以上です\n声、少し枯れかけてます", "x": "今日は声が持つか心配でした", "tags": "" }
-    ] },
-  { "id": "stage-02", "category": "stage", "image": "stage/Stage00002.jpg",
+      {
+        "ig": "今日のステージ、思ったより高く跳べました\n着地、ちょっと危なかったです",
+        "x": "今日のステージ、飛びすぎました",
+        "tags": "#VERT5X #JONGJIN #kpop"
+      },
+      {
+        "ig": "客席の熱量、毎回想像以上です\n声、少し枯れかけてます",
+        "x": "今日は声が持つか心配でした",
+        "tags": "#VERT5X #JONGJIN #live"
+      }
+    ]
+  },
+  {
+    "id": "stage-02",
+    "category": "stage",
+    "image": "stage/Stage00002.jpg",
     "variants": [
-      { "ig": "紙吹雪、思ったよりたくさん降ってきました", "x": "紙吹雪、口に入りました", "tags": "#VERT5X #JONGJIN" },
-      { "ig": "屋外のステージは風の影響が大きいです\n声、飛ばされる感じがします", "x": "屋外公演、風強かったです", "tags": "" }
-    ] },
-  { "id": "stage-03", "category": "stage", "image": "stage/Stage00003.jpg",
+      {
+        "ig": "紙吹雪、思ったよりたくさん降ってきました",
+        "x": "紙吹雪、口に入りました",
+        "tags": "#VERT5X #JONGJIN #backstage"
+      },
+      {
+        "ig": "屋外のステージは風の影響が大きいです\n声、飛ばされる感じがします",
+        "x": "屋外公演、風強かったです",
+        "tags": "#VERT5X #JONGJIN #ステージ"
+      }
+    ]
+  },
+  {
+    "id": "stage-03",
+    "category": "stage",
+    "image": "stage/Stage00003.jpg",
     "variants": [
-      { "ig": "レーザーの中でジャンプするタイミング、毎回緊張します", "x": "今日の照明、目がチカチカしました", "tags": "#VERT5X #JONGJIN #kpop" },
-      { "ig": "煙と光でほとんど前が見えてないです\n勘で動いてます", "x": "演出の煙、思ったより多かったです", "tags": "" }
-    ] },
-  { "id": "stage-04", "category": "stage", "image": "stage/Stage00004.jpg",
+      {
+        "ig": "レーザーの中でジャンプするタイミング、毎回緊張します",
+        "x": "今日の照明、目がチカチカしました",
+        "tags": "#VERT5X #JONGJIN #音楽"
+      },
+      {
+        "ig": "煙と光でほとんど前が見えてないです\n勘で動いてます",
+        "x": "演出の煙、思ったより多かったです",
+        "tags": "#VERT5X #JONGJIN #kpop"
+      }
+    ]
+  },
+  {
+    "id": "stage-04",
+    "category": "stage",
+    "image": "stage/Stage00004.jpg",
     "variants": [
-      { "ig": "本番終わり、スタッフとハイタッチしてきました", "x": "本番終わりました\nお疲れさまでした", "tags": "#VERT5X #JONGJIN #backstage" },
-      { "ig": "袖に戻る廊下、毎回この瞬間が一番落ち着きます", "x": "袖の廊下、静かで好きです", "tags": "" }
-    ] },
-  { "id": "stage-05", "category": "stage", "image": "stage/Stage00005.jpg",
+      {
+        "ig": "本番終わり、スタッフとハイタッチしてきました",
+        "x": "本番終わりました\nお疲れさまでした",
+        "tags": "#VERT5X #JONGJIN #live"
+      },
+      {
+        "ig": "袖に戻る廊下、毎回この瞬間が一番落ち着きます",
+        "x": "袖の廊下、静かで好きです",
+        "tags": "#VERT5X #JONGJIN #backstage"
+      }
+    ]
+  },
+  {
+    "id": "stage-05",
+    "category": "stage",
+    "image": "stage/Stage00005.jpg",
     "variants": [
-      { "ig": "ファンの方に手を振ってました\nこの距離感、嬉しいです", "x": "手、振りすぎて疲れました", "tags": "#VERT5X #JONGJIN #ジョンジン" },
-      { "ig": "写真だと分かりにくいですが、後ろはまだ会場の中です", "x": "会場、まだ人が残ってました", "tags": "" }
-    ] },
-  { "id": "stage-06", "category": "stage", "image": "stage/Stage00006.jpeg",
+      {
+        "ig": "ファンの方に手を振ってました\nこの距離感、嬉しいです",
+        "x": "手、振りすぎて疲れました",
+        "tags": "#VERT5X #JONGJIN #ステージ"
+      },
+      {
+        "ig": "写真だと分かりにくいですが、後ろはまだ会場の中です",
+        "x": "会場、まだ人が残ってました",
+        "tags": "#VERT5X #JONGJIN #音楽"
+      }
+    ]
+  },
+  {
+    "id": "stage-06",
+    "category": "stage",
+    "image": "stage/Stage00006.jpeg",
     "variants": [
-      { "ig": "ビジュアル用の素材撮り、長時間椅子に座ってました", "x": "素材撮り、長かったです", "tags": "#VERT5X #JONGJIN" },
-      { "ig": "モニターの光、思ったより顔にあたって熱いです", "x": "モニター前、暑かったです", "tags": "" }
-    ] },
-  { "id": "stage-07", "category": "stage", "image": "stage/Stage00007.JPG",
+      {
+        "ig": "ビジュアル用の素材撮り、長時間椅子に座ってました",
+        "x": "素材撮り、長かったです",
+        "tags": "#VERT5X #JONGJIN #kpop"
+      },
+      {
+        "ig": "モニターの光、思ったより顔にあたって熱いです",
+        "x": "モニター前、暑かったです",
+        "tags": "#VERT5X #JONGJIN #live"
+      }
+    ]
+  },
+  {
+    "id": "stage-07",
+    "category": "stage",
+    "image": "stage/Stage00007.JPG",
     "variants": [
-      { "ig": "今日のツアータイトル、ELECTRIC MIRAGEでした\n中々気に入ってます", "x": "ツアータイトル、気に入ってます", "tags": "#VERT5X #JONGJIN #kpop" },
-      { "ig": "花火のタイミング、リハより早く上がって驚きました", "x": "花火、リハと違うタイミングでした", "tags": "" }
-    ] },
-
-  { "id": "home-01", "category": "home", "image": "home/Home00001.JPG",
+      {
+        "ig": "今日のツアータイトル、ELECTRIC MIRAGEでした\n中々気に入ってます",
+        "x": "ツアータイトル、気に入ってます",
+        "tags": "#VERT5X #JONGJIN #backstage"
+      },
+      {
+        "ig": "花火のタイミング、リハより早く上がって驚きました",
+        "x": "花火、リハと違うタイミングでした",
+        "tags": "#VERT5X #JONGJIN #ステージ"
+      }
+    ]
+  },
+  {
+    "id": "home-01",
+    "category": "home",
+    "image": "home/Home00001.JPG",
     "variants": [
-      { "ig": "休みの日、結局家から出ませんでした\nコーヒーだけは丁寧に淹れる", "x": "今日はずっと家にいました\nそれだけです", "tags": "#JONGJIN #cafetime" },
-      { "ig": "豆から挽くと部屋中いい匂いになります", "x": "コーヒー、豆から挽くようになりました", "tags": "" }
-    ] },
-  { "id": "home-02", "category": "home", "image": "home/Home00002.JPG",
+      {
+        "ig": "休みの日、結局家から出ませんでした\nコーヒーだけは丁寧に淹れる",
+        "x": "今日はずっと家にいました\nそれだけです",
+        "tags": "#VERT5X #JONGJIN #cafetime"
+      },
+      {
+        "ig": "豆から挽くと部屋中いい匂いになります",
+        "x": "コーヒー、豆から挽くようになりました",
+        "tags": "#VERT5X #JONGJIN #おうち時間"
+      }
+    ]
+  },
+  {
+    "id": "home-02",
+    "category": "home",
+    "image": "home/Home00002.JPG",
     "variants": [
-      { "ig": "読みかけの本を持ったまま、窓の外ばかり見てました", "x": "本、全然進みません", "tags": "#JONGJIN" },
-      { "ig": "この本、まだ半分も進んでないです", "x": "読書、遅いです", "tags": "" }
-    ] },
-  { "id": "home-03", "category": "home", "image": "home/home00003.JPG",
+      {
+        "ig": "読みかけの本を持ったまま、窓の外ばかり見てました",
+        "x": "本、全然進みません",
+        "tags": "#VERT5X #JONGJIN #オフの日"
+      },
+      {
+        "ig": "この本、まだ半分も進んでないです",
+        "x": "読書、遅いです",
+        "tags": "#VERT5X #JONGJIN #日常"
+      }
+    ]
+  },
+  {
+    "id": "home-03",
+    "category": "home",
+    "image": "home/home00003.JPG",
     "variants": [
-      { "ig": "夜景がきれいな部屋に泊まってます\nグラス一杯だけ", "x": "夜景、見入ってしまいました", "tags": "#VERT5X #JONGJIN" },
-      { "ig": "この時間、電気を消したまま外を見てるのが好きです", "x": "部屋の電気、消したままでした", "tags": "" }
-    ] },
-  { "id": "home-04", "category": "home", "image": "home/Home00004.JPG",
+      {
+        "ig": "夜景がきれいな部屋に泊まってます\nグラス一杯だけ",
+        "x": "夜景、見入ってしまいました",
+        "tags": "#VERT5X #JONGJIN #ジョンジン部屋"
+      },
+      {
+        "ig": "この時間、電気を消したまま外を見てるのが好きです",
+        "x": "部屋の電気、消したままでした",
+        "tags": "#VERT5X #JONGJIN #cafetime"
+      }
+    ]
+  },
+  {
+    "id": "home-04",
+    "category": "home",
+    "image": "home/Home00004.JPG",
     "variants": [
-      { "ig": "散歩中の犬に懐かれました\n飼い主さんに謝りました", "x": "犬に懐かれました", "tags": "#JONGJIN" },
-      { "ig": "夕方の浜辺、この子とずっと見つめ合ってました", "x": "夕方の浜辺で犬と遭遇しました", "tags": "" }
-    ] },
-  { "id": "home-05", "category": "home", "image": "home/Home00005.jpg",
+      {
+        "ig": "散歩中の犬に懐かれました\n飼い主さんに謝りました",
+        "x": "犬に懐かれました",
+        "tags": "#VERT5X #JONGJIN #おうち時間"
+      },
+      {
+        "ig": "夕方の浜辺、この子とずっと見つめ合ってました",
+        "x": "夕方の浜辺で犬と遭遇しました",
+        "tags": "#VERT5X #JONGJIN #オフの日"
+      }
+    ]
+  },
+  {
+    "id": "home-05",
+    "category": "home",
+    "image": "home/Home00005.jpg",
     "variants": [
-      { "ig": "動画撮ってます\n何度も同じところで噛みました", "x": "動画撮影、噛みすぎました", "tags": "#JONGJIN" },
-      { "ig": "配信の準備、思ったより時間かかりました", "x": "配信準備、長引きました", "tags": "" }
-    ] },
-  { "id": "home-06", "category": "home", "image": "home/Home00006.jpg",
+      {
+        "ig": "動画撮ってます\n何度も同じところで噛みました",
+        "x": "動画撮影、噛みすぎました",
+        "tags": "#VERT5X #JONGJIN #日常"
+      },
+      {
+        "ig": "配信の準備、思ったより時間かかりました",
+        "x": "配信準備、長引きました",
+        "tags": "#VERT5X #JONGJIN #ジョンジン部屋"
+      }
+    ]
+  },
+  {
+    "id": "home-06",
+    "category": "home",
+    "image": "home/Home00006.jpg",
     "variants": [
-      { "ig": "部屋で一人喋る練習してます\n見られてたら恥ずかしいです", "x": "一人で喋る練習してました", "tags": "" },
-      { "ig": "三脚立てただけで満足しちゃうことがあります", "x": "三脚だけ立てて満足しました", "tags": "#JONGJIN" }
-    ] },
-
-  { "id": "out-01", "category": "out", "image": "out/out00001.JPG",
+      {
+        "ig": "部屋で一人喋る練習してます\n見られてたら恥ずかしいです",
+        "x": "一人で喋る練習してました",
+        "tags": "#VERT5X #JONGJIN #cafetime"
+      },
+      {
+        "ig": "三脚立てただけで満足しちゃうことがあります",
+        "x": "三脚だけ立てて満足しました",
+        "tags": "#VERT5X #JONGJIN #おうち時間"
+      }
+    ]
+  },
+  {
+    "id": "out-01",
+    "category": "out",
+    "image": "out/out00001.JPG",
     "variants": [
-      { "ig": "旅先のカフェで一息\nクロワッサン、想像より大きかったです", "x": "クロワッサン、大きかったです", "tags": "#VERT5X #JONGJIN #cafetime" },
-      { "ig": "エスプレッソ一杯で長居してしまいました", "x": "エスプレッソだけで長居しました", "tags": "" }
-    ] },
-  { "id": "out-02", "category": "out", "image": "out/out00002.JPG",
+      {
+        "ig": "旅先のカフェで一息\nクロワッサン、想像より大きかったです",
+        "x": "クロワッサン、大きかったです",
+        "tags": "#VERT5X #JONGJIN #お出かけ"
+      },
+      {
+        "ig": "エスプレッソ一杯で長居してしまいました",
+        "x": "エスプレッソだけで長居しました",
+        "tags": "#VERT5X #JONGJIN #カフェ巡り"
+      }
+    ]
+  },
+  {
+    "id": "out-02",
+    "category": "out",
+    "image": "out/out00002.JPG",
     "variants": [
-      { "ig": "紅葉がきれいで、しばらくベンチから動けませんでした", "x": "紅葉、しばらく見てました", "tags": "#JONGJIN" },
-      { "ig": "葉っぱ、思ったより肩に積もってました", "x": "肩に葉っぱが積もってました", "tags": "" }
-    ] },
-  { "id": "out-03", "category": "out", "image": "out/out00003.JPG",
+      {
+        "ig": "紅葉がきれいで、しばらくベンチから動けませんでした",
+        "x": "紅葉、しばらく見てました",
+        "tags": "#VERT5X #JONGJIN #散歩"
+      },
+      {
+        "ig": "葉っぱ、思ったより肩に積もってました",
+        "x": "肩に葉っぱが積もってました",
+        "tags": "#VERT5X #JONGJIN #旅先"
+      }
+    ]
+  },
+  {
+    "id": "out-03",
+    "category": "out",
+    "image": "out/out00003.JPG",
     "variants": [
-      { "ig": "友人とカフェで長話してました\n気づいたら夕方でした", "x": "友人とカフェで長話しました", "tags": "#VERT5X #JONGJIN" },
-      { "ig": "窓の外の自転車、ずっと目で追ってました", "x": "窓の外、自転車が多かったです", "tags": "" }
-    ] },
-  { "id": "out-04", "category": "out", "image": "out/out00004.JPG",
+      {
+        "ig": "友人とカフェで長話してました\n気づいたら夕方でした",
+        "x": "友人とカフェで長話しました",
+        "tags": "#VERT5X #JONGJIN #景色"
+      },
+      {
+        "ig": "窓の外の自転車、ずっと目で追ってました",
+        "x": "窓の外、自転車が多かったです",
+        "tags": "#VERT5X #JONGJIN #お出かけ"
+      }
+    ]
+  },
+  {
+    "id": "out-04",
+    "category": "out",
+    "image": "out/out00004.JPG",
     "variants": [
-      { "ig": "屋上からの景色、風が強くて髪ぐちゃぐちゃです", "x": "屋上、風強かったです", "tags": "#VERT5X #JONGJIN #ジョンジン" },
-      { "ig": "この高さから見る街、いつも新鮮です", "x": "屋上からの景色、新鮮でした", "tags": "" }
-    ] },
-  { "id": "out-05", "category": "out", "image": "out/out00005.JPG", "months": [12, 1, 2],
+      {
+        "ig": "屋上からの景色、風が強くて髪ぐちゃぐちゃです",
+        "x": "屋上、風強かったです",
+        "tags": "#VERT5X #JONGJIN #カフェ巡り"
+      },
+      {
+        "ig": "この高さから見る街、いつも新鮮です",
+        "x": "屋上からの景色、新鮮でした",
+        "tags": "#VERT5X #JONGJIN #散歩"
+      }
+    ]
+  },
+  {
+    "id": "out-05",
+    "category": "out",
+    "image": "out/out00005.JPG",
+    "months": [
+      12,
+      1,
+      2
+    ],
     "variants": [
-      { "ig": "雪の日の道、音が全部吸い込まれる感じがします\n滑らないように歩くのに必死でした", "x": "雪道、思ったより滑ります", "tags": "#JONGJIN #winter" },
-      { "ig": "雪、思ったよりすぐ積もりました\nマフラー巻き直しました", "x": "雪、あっという間に積もりました", "tags": "" }
-    ] },
-  { "id": "out-06", "category": "out", "image": "out/out00006.JPG",
+      {
+        "ig": "雪の日の道、音が全部吸い込まれる感じがします\n滑らないように歩くのに必死でした",
+        "x": "雪道、思ったより滑ります",
+        "tags": "#VERT5X #JONGJIN #旅先"
+      },
+      {
+        "ig": "雪、思ったよりすぐ積もりました\nマフラー巻き直しました",
+        "x": "雪、あっという間に積もりました",
+        "tags": "#VERT5X #JONGJIN #景色"
+      }
+    ]
+  },
+  {
+    "id": "out-06",
+    "category": "out",
+    "image": "out/out00006.JPG",
     "variants": [
-      { "ig": "石畳の道、歩きにくいですが雰囲気が好きです", "x": "石畳、歩きにくかったです", "tags": "" },
-      { "ig": "隣のテーブルの人と少し話しました\n言葉、半分くらいしか分かりませんでした", "x": "隣の席の人と少し話しました", "tags": "#VERT5X #JONGJIN" }
-    ] },
-  { "id": "out-07", "category": "out", "image": "out/out00007.JPG",
+      {
+        "ig": "石畳の道、歩きにくいですが雰囲気が好きです",
+        "x": "石畳、歩きにくかったです",
+        "tags": "#VERT5X #JONGJIN #お出かけ"
+      },
+      {
+        "ig": "隣のテーブルの人と少し話しました\n言葉、半分くらいしか分かりませんでした",
+        "x": "隣の席の人と少し話しました",
+        "tags": "#VERT5X #JONGJIN #カフェ巡り"
+      }
+    ]
+  },
+  {
+    "id": "out-07",
+    "category": "out",
+    "image": "out/out00007.JPG",
     "variants": [
-      { "ig": "夕焼けがきれいで、写真ばかり撮ってました", "x": "夕焼け、写真撮りすぎました", "tags": "#VERT5X #JONGJIN" },
-      { "ig": "屋上、風が気持ちよくてしばらく座ってました", "x": "屋上でしばらく座ってました", "tags": "" }
-    ] },
-
-  { "id": "studio-01", "category": "studio", "image": "studio/Studio00001.JPG",
+      {
+        "ig": "夕焼けがきれいで、写真ばかり撮ってました",
+        "x": "夕焼け、写真撮りすぎました",
+        "tags": "#VERT5X #JONGJIN #散歩"
+      },
+      {
+        "ig": "屋上、風が気持ちよくてしばらく座ってました",
+        "x": "屋上でしばらく座ってました",
+        "tags": "#VERT5X #JONGJIN #旅先"
+      }
+    ]
+  },
+  {
+    "id": "studio-01",
+    "category": "studio",
+    "image": "studio/Studio00001.JPG",
     "variants": [
-      { "ig": "ミックス作業に立ち会ってきました\nつまみの数、覚えられません", "x": "ミックス作業、長丁場でした", "tags": "#VERT5X #JONGJIN #studio" },
-      { "ig": "エンジニアさんの後ろでずっと聴いてました", "x": "後ろでずっと聴いてました", "tags": "" }
-    ] },
-  { "id": "studio-02", "category": "studio", "image": "studio/Studio00002.JPG",
+      {
+        "ig": "ミックス作業に立ち会ってきました\nつまみの数、覚えられません",
+        "x": "ミックス作業、長丁場でした",
+        "tags": "#VERT5X #JONGJIN #studio"
+      },
+      {
+        "ig": "エンジニアさんの後ろでずっと聴いてました",
+        "x": "後ろでずっと聴いてました",
+        "tags": "#VERT5X #JONGJIN #撮影"
+      }
+    ]
+  },
+  {
+    "id": "studio-02",
+    "category": "studio",
+    "image": "studio/Studio00002.JPG",
     "variants": [
-      { "ig": "この建物、写真映えするからってスタッフに連れてこられました", "x": "変わった場所に連れてこられました", "tags": "#VERT5X #JONGJIN" },
-      { "ig": "コンクリートの通路、声がよく響きます", "x": "声が響く場所でした", "tags": "" }
-    ] },
-  { "id": "studio-03", "category": "studio", "image": "studio/Studio00003.jpg",
+      {
+        "ig": "この建物、写真映えするからってスタッフに連れてこられました",
+        "x": "変わった場所に連れてこられました",
+        "tags": "#VERT5X #JONGJIN #ビジュアル"
+      },
+      {
+        "ig": "コンクリートの通路、声がよく響きます",
+        "x": "声が響く場所でした",
+        "tags": "#VERT5X #JONGJIN #衣装"
+      }
+    ]
+  },
+  {
+    "id": "studio-03",
+    "category": "studio",
+    "image": "studio/Studio00003.jpg",
     "variants": [
-      { "ig": "雨の中の撮影でした\n髪、乾かす暇もなかったです", "x": "雨の中の撮影でした", "tags": "#VERT5X #JONGJIN #kpop" },
-      { "ig": "ネオンの看板、色がきれいで気に入りました", "x": "ネオンの色、気に入りました", "tags": "" }
-    ] },
-  { "id": "studio-04", "category": "studio", "image": "studio/Studio00004.JPG",
+      {
+        "ig": "雨の中の撮影でした\n髪、乾かす暇もなかったです",
+        "x": "雨の中の撮影でした",
+        "tags": "#VERT5X #JONGJIN #backstage"
+      },
+      {
+        "ig": "ネオンの看板、色がきれいで気に入りました",
+        "x": "ネオンの色、気に入りました",
+        "tags": "#VERT5X #JONGJIN #studio"
+      }
+    ]
+  },
+  {
+    "id": "studio-04",
+    "category": "studio",
+    "image": "studio/Studio00004.JPG",
     "variants": [
-      { "ig": "楽屋の鏡台、いろんな人の私物が置いてあって面白いです", "x": "楽屋の鏡台、物が多いです", "tags": "#JONGJIN" },
-      { "ig": "衣装ラック、今日は特に量が多かったです", "x": "今日の衣装、量が多かったです", "tags": "" }
-    ] },
-  { "id": "studio-05", "category": "studio", "image": "studio/Studio00005.JPG",
+      {
+        "ig": "楽屋の鏡台、いろんな人の私物が置いてあって面白いです",
+        "x": "楽屋の鏡台、物が多いです",
+        "tags": "#VERT5X #JONGJIN #撮影"
+      },
+      {
+        "ig": "衣装ラック、今日は特に量が多かったです",
+        "x": "今日の衣装、量が多かったです",
+        "tags": "#VERT5X #JONGJIN #ビジュアル"
+      }
+    ]
+  },
+  {
+    "id": "studio-05",
+    "category": "studio",
+    "image": "studio/Studio00005.JPG",
     "variants": [
-      { "ig": "リハーサル終わり、汗だくです", "x": "リハ終わり、汗だくです", "tags": "#VERT5X #JONGJIN" },
-      { "ig": "鏡張りの部屋、自分の顔ばかり見ることになります", "x": "鏡張りの部屋は落ち着きません", "tags": "" }
-    ] },
-  { "id": "studio-06", "category": "studio", "image": "studio/Studio00006.JPG",
+      {
+        "ig": "リハーサル終わり、汗だくです",
+        "x": "リハ終わり、汗だくです",
+        "tags": "#VERT5X #JONGJIN #衣装"
+      },
+      {
+        "ig": "鏡張りの部屋、自分の顔ばかり見ることになります",
+        "x": "鏡張りの部屋は落ち着きません",
+        "tags": "#VERT5X #JONGJIN #backstage"
+      }
+    ]
+  },
+  {
+    "id": "studio-06",
+    "category": "studio",
+    "image": "studio/Studio00006.JPG",
     "variants": [
-      { "ig": "同じポーズを何度も撮り直してました\n肩の角度が1cm違うだけでダメ出しされます", "x": "撮り直し、多めの日でした", "tags": "#VERT5X #JONGJIN #studio" },
-      { "ig": "背景が暗いだけで、随分雰囲気変わるんですね", "x": "背景一つで雰囲気が変わります", "tags": "" }
-    ] }
+      {
+        "ig": "同じポーズを何度も撮り直してました\n肩の角度が1cm違うだけでダメ出しされます",
+        "x": "撮り直し、多めの日でした",
+        "tags": "#VERT5X #JONGJIN #studio"
+      },
+      {
+        "ig": "背景が暗いだけで、随分雰囲気変わるんですね",
+        "x": "背景一つで雰囲気が変わります",
+        "tags": "#VERT5X #JONGJIN #撮影"
+      }
+    ]
+  }
 ]
