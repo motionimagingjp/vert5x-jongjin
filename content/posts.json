@@ -1,174 +1,109 @@
 [
-  {
-    "id": "stage-01",
-    "category": "stage",
-    "image": "stage/Stage00001.jpg",
+  { "id": "stage-01", "category": "stage", "image": "stage/Stage00001.jpg",
     "ig": "次の現場に向けて、スタッフと衣装合わせしてました\nまだ内緒にしてることが多いですが、楽しみにしていてください",
     "x": "次に向けて、準備進めてます\n応援よろしくお願いします",
-    "tags": "#VERT5X #JONGJIN #kpop #backstage #ジョンジン"
-  },
-  {
-    "id": "stage-02",
-    "category": "stage",
-    "image": "stage/Stage00002.jpg",
+    "tags": "#VERT5X #JONGJIN #kpop #backstage #ジョンジン" },
+  { "id": "stage-02", "category": "stage", "image": "stage/Stage00002.jpg",
     "ig": "今日はレコーディングでした\n思ったより時間かかってますが、いいもの仕上げてます",
     "x": "レコーディング、少し押してます\nでも納得いくまでやりたいので、もう少し待っててください",
-    "tags": ""
-  },
-  {
-    "id": "stage-03",
-    "category": "stage",
-    "image": "stage/Stage00003.jpeg",
+    "tags": "" },
+  { "id": "stage-03", "category": "stage", "image": "stage/Stage00003.jpg",
     "ig": "撮影の合間にスタッフと今後の話。\n発表できることが増えたら、ちゃんとお伝えします",
     "x": "今日は関係者との打ち合わせでした\n近いうちに何か発表できると思います",
-    "tags": "#VERT5X #JONGJIN"
-  },
-  {
-    "id": "stage-04",
-    "category": "stage",
-    "image": "stage/04.jpg",
+    "tags": "#VERT5X #JONGJIN" },
+  { "id": "stage-04", "category": "stage", "image": "stage/Stage00004.jpg",
     "ig": "準備、着々と進んでます\n応援してもらえると励みになります",
     "x": "スタッフと今日も長時間ミーティングでした\n形になるまで、もう少しかかりそうです",
-    "tags": "#VERT5X #JONGJIN #kpop #ジョンジン"
-  },
-  {
-    "id": "stage-05",
-    "category": "stage",
-    "image": "stage/05.jpg",
-    "draft": true,
+    "tags": "#VERT5X #JONGJIN #kpop #ジョンジン" },
+  { "id": "stage-05", "category": "stage", "image": "stage/Stage00005.jpg", "draft": true,
     "ig": "練習室の鏡、夜になると自分しか映らないので落ち着きます\nもう少しだけやって帰ります",
     "x": "今日も練習室でした\n床が冷たい",
-    "tags": "#VERT5X #JONGJIN #practice"
-  },
-  {
-    "id": "home-01",
-    "category": "home",
-    "image": "home/Home00001.JPG",
+    "tags": "#VERT5X #JONGJIN #practice" },
+  { "id": "stage-06", "category": "stage", "image": "stage/Stage00006.jpeg", "draft": true,
+    "ig": "モニターチェック、細かいところ何度も確認してます\n目が疲れました",
+    "x": "モニターチェックで一日終わりました",
+    "tags": "" },
+  { "id": "stage-07", "category": "stage", "image": "stage/Stage00007.JPG", "draft": true,
+    "ig": "衣装合わせ、思ったより時間かかりました\n動いてみないと分からないことが多いです",
+    "x": "衣装合わせ、長丁場でした",
+    "tags": "#VERT5X #JONGJIN" },
+
+  { "id": "home-01", "category": "home", "image": "home/Home00001.JPG",
     "ig": "休みの日、結局家から出ませんでした\nコーヒーだけは丁寧に淹れる",
     "x": "今日はずっと家にいました\nそれだけです",
-    "tags": "#JONGJIN #cafetime"
-  },
-  {
-    "id": "home-02",
-    "category": "home",
-    "image": "home/Home00002.JPG",
+    "tags": "#JONGJIN #cafetime" },
+  { "id": "home-02", "category": "home", "image": "home/Home00002.JPG",
     "ig": "日曜の朝ってなんでこんなに時間がゆっくり感じるんでしょうか",
     "x": "コーヒー、豆から挽くようになりました",
-    "tags": ""
-  },
-  {
-    "id": "home-03",
-    "category": "home",
-    "image": "home/home00003.JPG",
+    "tags": "" },
+  { "id": "home-03", "category": "home", "image": "home/home00003.JPG",
     "ig": "部屋の模様替えしたくて家具の配置ばっかり見てます",
     "x": "窓開けたら気持ちよくて\nしばらくそのままにしてました",
-    "tags": "#VERT5X #JONGJIN #ジョンジン"
-  },
-  {
-    "id": "home-04",
-    "category": "home",
-    "image": "home/Home00004.JPG",
-    "draft": true,
+    "tags": "#VERT5X #JONGJIN #ジョンジン" },
+  { "id": "home-04", "category": "home", "image": "home/Home00004.JPG", "draft": true,
     "ig": "読みかけの本、3ページで寝てました",
     "x": "昼寝のつもりが夕方でした",
-    "tags": ""
-  },
-  {
-    "id": "home-05",
-    "category": "home",
-    "image": "home/05.jpg",
-    "draft": true,
+    "tags": "" },
+  { "id": "home-05", "category": "home", "image": "home/Home00005.jpg", "draft": true,
     "ig": "洗濯物干して、ソファに座ったらもう動けなくなりました\n今日はこれでいいことにします",
     "x": "オフの日は洗濯から",
-    "tags": "#JONGJIN"
-  },
-  {
-    "id": "out-01",
-    "category": "out",
-    "image": "out/out00001.JPG",
+    "tags": "#JONGJIN" },
+  { "id": "home-06", "category": "home", "image": "home/Home00006.jpg", "draft": true,
+    "ig": "キッチンに立って、特に何を作るでもなく冷蔵庫開けてました",
+    "x": "冷蔵庫の中身、寂しい感じでした",
+    "tags": "" },
+
+  { "id": "out-01", "category": "out", "image": "out/out00001.JPG",
     "ig": "カフェで作業するつもりが、結局ずっと外眺めてました",
     "x": "カフェの窓際、ずっと座ってました",
-    "tags": "#VERT5X #JONGJIN #cafetime"
-  },
-  {
-    "id": "out-02",
-    "category": "out",
-    "image": "out/out00002.JPG",
+    "tags": "#VERT5X #JONGJIN #cafetime" },
+  { "id": "out-02", "category": "out", "image": "out/out00002.JPG",
     "ig": "海沿い歩いてたら風が強くて、髪ぐちゃぐちゃです",
     "x": "海、風強かったです",
-    "tags": ""
-  },
-  {
-    "id": "out-03",
-    "category": "out",
-    "image": "out/out00003.JPG",
+    "tags": "" },
+  { "id": "out-03", "category": "out", "image": "out/out00003.JPG",
     "ig": "公園のベンチ、思ったより長居してしまいました",
     "x": "公園のベンチ、気持ちよかったです",
-    "tags": "#JONGJIN"
-  },
-  {
-    "id": "out-04",
-    "category": "out",
-    "image": "out/out00004.JPG",
-    "draft": true,
+    "tags": "#JONGJIN" },
+  { "id": "out-04", "category": "out", "image": "out/out00004.JPG", "draft": true,
     "ig": "知らない道を選んで歩いたら、いい感じの古本屋見つけました",
     "x": "散歩してたら遠くまで来てました",
-    "tags": "#VERT5X #JONGJIN #ジョンジン"
-  },
-  {
-    "id": "out-05",
-    "category": "out",
-    "image": "out/out00005.JPG",
-    "draft": true,
-    "months": [
-      12,
-      1,
-      2
-    ],
+    "tags": "#VERT5X #JONGJIN #ジョンジン" },
+  { "id": "out-05", "category": "out", "image": "out/out00005.JPG", "draft": true, "months": [12, 1, 2],
     "ig": "雪の日の道、音が全部吸い込まれる感じがします\n滑らないように歩くのに必死でした",
     "x": "雪道、思ったより滑ります",
-    "tags": "#JONGJIN #winter"
-  },
-  {
-    "id": "studio-01",
-    "category": "studio",
-    "image": "studio/Studio00001.jpeg",
+    "tags": "#JONGJIN #winter" },
+  { "id": "out-06", "category": "out", "image": "out/out00006.JPG", "draft": true,
+    "ig": "橋の上、風が強くて写真撮るのに苦戦しました",
+    "x": "橋の上、しばらく立ち止まってました",
+    "tags": "" },
+  { "id": "out-07", "category": "out", "image": "out/out00007.JPG", "draft": true,
+    "ig": "自販機の前で少し休憩\n歩き疲れました",
+    "x": "今日はよく歩きました",
+    "tags": "#VERT5X #JONGJIN" },
+
+  { "id": "studio-01", "category": "studio", "image": "studio/Studio00001.JPG",
     "ig": "今日は衣装がいつもと違ったので、少しテンション上がってました",
     "x": "今日の衣装、動きにくかったです\nでも気に入りました",
-    "tags": "#VERT5X #JONGJIN #studio"
-  },
-  {
-    "id": "studio-02",
-    "category": "studio",
-    "image": "studio/Studio00002.JPG",
+    "tags": "#VERT5X #JONGJIN #studio" },
+  { "id": "studio-02", "category": "studio", "image": "studio/Studio00002.JPG",
     "ig": "撮影終わり、\n照明落とすと途端に静かになる感じ好きです",
     "x": "スタジオの照明、暑いです",
-    "tags": ""
-  },
-  {
-    "id": "studio-03",
-    "category": "studio",
-    "image": "studio/Studio00003.JPG",
+    "tags": "" },
+  { "id": "studio-03", "category": "studio", "image": "studio/Studio00003.jpg",
     "ig": "黒ばっかり着てる自覚はあります",
     "x": "撮影多めの一日でした",
-    "tags": "#VERT5X #JONGJIN #kpop #ジョンジン"
-  },
-  {
-    "id": "studio-04",
-    "category": "studio",
-    "image": "studio/Studio00004.JPG",
-    "draft": true,
+    "tags": "#VERT5X #JONGJIN #kpop #ジョンジン" },
+  { "id": "studio-04", "category": "studio", "image": "studio/Studio00004.JPG", "draft": true,
     "ig": "待ち時間に座ってた椅子が一番落ち着きました",
     "x": "待ち時間、長めでした",
-    "tags": "#JONGJIN"
-  },
-  {
-    "id": "studio-05",
-    "category": "studio",
-    "image": "studio/05.jpg",
-    "draft": true,
+    "tags": "#JONGJIN" },
+  { "id": "studio-05", "category": "studio", "image": "studio/Studio00005.JPG", "draft": true,
     "ig": "ジャケットが思ったより重くて、撮影終わった瞬間に脱ぎました",
     "x": "今日の撮影、風を当てられ続けました",
-    "tags": ""
-  }
+    "tags": "" },
+  { "id": "studio-06", "category": "studio", "image": "studio/Studio00006.JPG", "draft": true,
+    "ig": "同じポーズを何度も撮り直してました\n細かい違いなんですが",
+    "x": "撮り直し、多めの日でした",
+    "tags": "#VERT5X #JONGJIN #studio" }
 ]

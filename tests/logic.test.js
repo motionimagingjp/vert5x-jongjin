@@ -12,10 +12,11 @@ test('カテゴリは stage→home→out→studio→stage', () => {
   assert.equal(nextCategory('studio'), 'stage');
 });
 
-test('posts.json: IDが一意・各カテゴリ5件・必須項目あり', () => {
+test('posts.json: IDが一意・各カテゴリに件数があり・必須項目あり', () => {
   assert.equal(new Set(posts.map((p) => p.id)).size, posts.length);
-  for (const c of ['stage', 'home', 'out', 'studio']) {
-    assert.equal(posts.filter((p) => p.category === c).length, 5);
+  const counts = { stage: 7, home: 6, out: 7, studio: 6 };
+  for (const c of Object.keys(counts)) {
+    assert.equal(posts.filter((p) => p.category === c).length, counts[c], c);
   }
   for (const p of posts) assert.ok(p.ig && p.x && p.image.startsWith(`${p.category}/`), p.id);
 });
@@ -23,7 +24,10 @@ test('posts.json: IDが一意・各カテゴリ5件・必須項目あり', () =>
 test('未投稿を優先し、使い切ったら古い順に再利用', () => {
   const usedAt = { 'home-01': 100, 'home-02': 200 };
   assert.equal(orderCandidates(posts, 'home', usedAt, 5)[0].id, 'home-03');
-  const all = { 'home-01': 500, 'home-02': 100, 'home-03': 300, 'home-04': 400, 'home-05': 200 };
+  const all = {
+    'home-01': 500, 'home-02': 100, 'home-03': 300,
+    'home-04': 400, 'home-05': 200, 'home-06': 600,
+  };
   assert.equal(orderCandidates(posts, 'home', all, 5)[0].id, 'home-02');
   assert.equal(remainingUnused(posts, 'home', all), 0);
 });
