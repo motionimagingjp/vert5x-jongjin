@@ -4,7 +4,7 @@
 //   ?key=CRON_SECRET&force=1  同日二重投稿チェックを無視
 import { Redis } from '@upstash/redis';
 import posts from '../../../content/posts.json';
-import { nextCategory, orderCandidates, remainingUnused, buildCaption } from '../../../lib/pick.js';
+import { nextCategory, orderCandidates, remainingUnused, pickVariant, buildCaption } from '../../../lib/pick.js';
 import { fetchTokyoWeather, pickWeatherLine } from '../../../lib/weather.js';
 import { postToInstagram, postToThreads, notify } from '../../../lib/sns.js';
 
@@ -14,6 +14,7 @@ export const maxDuration = 300;
 const K = {
   lastCategory: 'jj:lastCategory',
   usedAt: 'jj:usedAt',          // hash: postId -> 投稿時刻
+  variantIdx: 'jj:variantIdx',  // hash: postId -> 直近使ったバリアントindex
   postedDate: 'jj:postedDate',
   weatherRecent: 'jj:weatherRecent', // list: 直近の天気コメント
 };
@@ -65,9 +66,13 @@ export async function GET(request) {
         await notify(`天気取得に失敗、天気コメントなしで投稿します: ${e.message}`);
       }
     }
-    const caption = buildCaption(post, weather?.line);
 
-    if (dry) return json({ dry: true, category, postId: post.id, imageUrl, weather, caption });
+    // 同じ画像を2周目以降に使う時、前回と違う文言バリアントを選ぶ
+    const lastVariantIdx = await redis.hget(K.variantIdx, post.id);
+    const { index: variantIdx, variant } = pickVariant(post, lastVariantIdx);
+    const caption = buildCaption(variant, weather?.line);
+
+    if (dry) return json({ dry: true, category, postId: post.id, variantIdx, imageUrl, weather, caption });
 
     const igId = await postToInstagram(imageUrl, caption);
 
@@ -75,6 +80,7 @@ export async function GET(request) {
     await redis.set(K.postedDate, today, { ex: 86400 });
     await redis.set(K.lastCategory, category);
     await redis.hset(K.usedAt, { [post.id]: Date.now() });
+    await redis.hset(K.variantIdx, { [post.id]: variantIdx });
     if (weather) {
       await redis.lpush(K.weatherRecent, weather.line);
       await redis.ltrim(K.weatherRecent, 0, 9);

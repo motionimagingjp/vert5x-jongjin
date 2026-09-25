@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { nextCategory, orderCandidates, remainingUnused, buildCaption } from '../lib/pick.js';
+import { nextCategory, orderCandidates, remainingUnused, pickVariant, buildCaption } from '../lib/pick.js';
 import { pickWeatherLine, codeToKind } from '../lib/weather.js';
 
 const posts = JSON.parse(readFileSync(new URL('../content/posts.json', import.meta.url)));
@@ -18,7 +18,19 @@ test('posts.json: IDが一意・各カテゴリに件数があり・必須項目
   for (const c of Object.keys(counts)) {
     assert.equal(posts.filter((p) => p.category === c).length, counts[c], c);
   }
-  for (const p of posts) assert.ok(p.ig && p.x && p.image.startsWith(`${p.category}/`), p.id);
+  for (const p of posts) {
+    assert.ok(p.image.startsWith(`${p.category}/`), p.id);
+    assert.ok(Array.isArray(p.variants) && p.variants.length >= 2, `${p.id}: variantsが2つ以上必要`);
+    for (const v of p.variants) assert.ok(v.ig && v.x, p.id);
+  }
+});
+
+test('バリアント選択: 2周目は前回と違う文言になる', () => {
+  const post = posts.find((p) => p.id === 'stage-01');
+  const first = pickVariant(post, undefined, () => 0);
+  const second = pickVariant(post, first.index, () => 0);
+  assert.notEqual(second.index, first.index);
+  assert.notEqual(second.variant.ig, first.variant.ig);
 });
 
 test('未投稿を優先し、使い切ったら古い順に再利用', () => {
@@ -48,7 +60,7 @@ test('天気: 前日雨→今日晴れ、直近の文は避ける', () => {
 });
 
 test('キャプション: 天気→本文→タグ、タグ空なら付けない', () => {
-  const p = { ig: '本文', tags: '' };
-  assert.equal(buildCaption(p, '晴れ'), '晴れ\n本文');
+  const v = { ig: '本文', tags: '' };
+  assert.equal(buildCaption(v, '晴れ'), '晴れ\n本文');
   assert.equal(buildCaption({ ig: '本文', tags: '#a' }), '本文\n\n#a');
 });
